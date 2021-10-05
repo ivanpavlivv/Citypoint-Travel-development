@@ -1,0 +1,27 @@
+﻿@using CitypointTravel.Data.Models
+@model IEnumerable<Cities>
+@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+    <html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List</title>
+</head>
+<body>
+    <h2>Всі міста</h2>
+    @{ 
+        foreach(var city in Model)
+            {
+        <div>
+            <h2>Назва: @city.name</h2>
+            <p>Опис: @city.shortDescription</p>
+            <p>Вартість харчування в дешевому ресторані: @city.costOfFood.ToString("c")</p>
+        </div>
+            }
+    }
+</body>
+</html>
