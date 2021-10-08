@@ -1,4 +1,5 @@
 ﻿using CitypointTravel.Data.Interfaces;
+using CitypointTravel.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,8 +19,10 @@ namespace CitypointTravel.Controllers
 
         public ViewResult List()
         {
-            var cities = _cities.cityList;
-            return View(cities);
+            ViewBag.Title = "Список міст для подорожі";
+            CitiesListViewModel obj = new CitiesListViewModel();
+            obj.allCities = _cities.cityList;
+            return View(obj);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace CitypointTravel.Data.Interfaces
     public interface ICities
     {
         IEnumerable<Cities> cityList { get; }
-        IEnumerable<Cities> getFavCity { get; set; }
+        IEnumerable<Cities> getFavCity { get; }
         Cities getObjectCity(int cityId);
     }
 }
