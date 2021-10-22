@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CitypointTravel.Migrations
 {
-    [DbContext(typeof(AppDBContent))]
+    [DbContext(typeof(AppDBContext))]
     partial class AppDBContentModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

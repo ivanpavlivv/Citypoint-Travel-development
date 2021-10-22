@@ -10,9 +10,9 @@ namespace CitypointTravel.Controllers
 {
     public class CitiesController : Controller
     {
-        private readonly ICities _cities;
+        private readonly ICity _cities;
 
-        public CitiesController(ICities iCities)
+        public CitiesController(ICity iCities)
         {
             _cities = iCities;
         }

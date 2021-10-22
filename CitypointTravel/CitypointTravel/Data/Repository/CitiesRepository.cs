@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 
 namespace CitypointTravel.Data.Repository
 {
-    public class CitiesRepository : ICities
+    public class CitiesRepository : ICity
     {
-        private readonly AppDBContent appDBContent;
+        private readonly AppDBContext _context;
 
-        public CitiesRepository(AppDBContent appDBContent)
+        public CitiesRepository(AppDBContext context)
         {
-            this.appDBContent = appDBContent;
+            this._context = context;
         }
 
-        public IEnumerable<Cities> cityList => appDBContent.Cities;             //???
+        public IEnumerable<City> cityList => _context.Cities;
 
-        public IEnumerable<Cities> getFavCity => appDBContent.Cities.Where(c => c.isFavourite);
+        public IEnumerable<City> getFavCity => _context.Cities.Where(c => c.IsFavourite);
 
-        public Cities getObjectCity(int cityId) => appDBContent.Cities.FirstOrDefault(c => c.id == cityId);
+        public City getObjectCity(int cityId) => _context.Cities.FirstOrDefault(c => c.Id == cityId);
     }
 }

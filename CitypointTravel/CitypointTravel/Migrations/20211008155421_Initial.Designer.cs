@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CitypointTravel.Migrations
 {
-    [DbContext(typeof(AppDBContent))]
+    [DbContext(typeof(AppDBContext))]
     [Migration("20211008155421_Initial")]
     partial class Initial
     {

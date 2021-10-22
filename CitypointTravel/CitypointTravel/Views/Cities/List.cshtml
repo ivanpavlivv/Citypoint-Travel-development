@@ -1,13 +1,23 @@
 ﻿<h2>Всі міста</h2>
-@{
-    foreach (var city in Model.allCities)
-    {
-        <div>
-            <h2>Назва: @city.name</h2>
-            <p>Зображення:</p>
-            <p><img src="@city.img" width="180" height="120"></p>
-            <p>Опис: @city.shortDescription</p>
-            <p>Вартість харчування в дешевому ресторані: @city.costOfFood.ToString("c")</p>
-        </div>
+<table>
+    @{
+        foreach (var city in Model.allCities)
+        {
+            <tr>
+                <td><h3>Назва: @city.Name</h3></td>
+            </tr>
+
+            <tr>
+                <td>Зображення:</td>
+            </tr>
+
+            <tr>
+                <td><img src="@city.Img" width="180" height="120"></td>
+            </tr>
+
+            <tr>
+                <td>Опис: @city.ShortDescription</td>
+            </tr>
+        }
     }
-}
+</table>

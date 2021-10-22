@@ -11,179 +11,179 @@ namespace CitypointTravel.Data
 {
     public class DBObjects
     {
-        public static void Initial(AppDBContent content)
+        public static void Initial(AppDBContext content)
         {
-            
+
             if (!content.Cities.Any())
                 content.Cities.AddRange(
-                    new Cities
+                    new City
                     {
-                        name = "Budapest",
-                        shortDescription = "Capital of Hungary.",
-                        img = "/img/Budapest.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Budapest",
+                        ShortDescription = "Capital of Hungary.",
+                        Img = "/img/Budapest.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Praha",
-                        shortDescription = "Capital of Czech Republic.",
-                        img = "/img/Prague.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Praha",
+                        ShortDescription = "Capital of Czech Republic.",
+                        Img = "/img/Prague.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Viena",
-                        shortDescription = "Capital of Austria.",
-                        img = "/img/Viena.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Viena",
+                        ShortDescription = "Capital of Austria.",
+                        Img = "/img/Viena.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Katowice",
-                        shortDescription = "Thist place is the capital city of the Silesian Voivodeship in south-west Poland.",
-                        img = "/img/Katowice.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Katowice",
+                        ShortDescription = "Thist place is the capital city of the Silesian Voivodeship in south-west Poland.",
+                        Img = "/img/Katowice.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Linz",
-                        shortDescription = "Linz is the capital of Upper Austria and third-largest city in Austria.",
-                        img = "/img/Linz.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Linz",
+                        ShortDescription = "Linz is the capital of Upper Austria and third-largest city in Austria.",
+                        Img = "/img/Linz.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Brno",
-                        shortDescription = "Brno is the former capital city of Moravia and the political and cultural hub of the South Moravian Region.",
-                        img = "/img/Brno.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Brno",
+                        ShortDescription = "Brno is the former capital city of Moravia and the political and cultural hub of the South Moravian Region.",
+                        Img = "/img/Brno.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Salzburg",
-                        shortDescription = "Salzburg is the fourth-largest city in Austria.",
-                        img = "/img/Salzburg.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Salzburg",
+                        ShortDescription = "Salzburg is the fourth-largest city in Austria.",
+                        Img = "/img/Salzburg.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Ostrava",
-                        shortDescription = "Ostrava is a city in the north-east of the Czech Republic, and the capital of the Moravian-Silesian Region.",
-                        img = "/img/Ostrava.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Ostrava",
+                        ShortDescription = "Ostrava is a city in the north-east of the Czech Republic, and the capital of the Moravian-Silesian Region.",
+                        Img = "/img/Ostrava.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Dresden",
-                        shortDescription = "Dresden is the capital city of the German state of Saxony and its second most populous city.",
-                        img = "/img/Dresden.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Dresden",
+                        ShortDescription = "Dresden is the capital city of the German state of Saxony and its second most populous city.",
+                        Img = "/img/Dresden.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     },
 
-                    new Cities
+                    new City
                     {
-                        name = "Leipzig",
-                        shortDescription = "Leipzig is an economic centre, is rated as the most livable city in Germany.",
-                        img = "/img/Leipzig.jpg",
-                        weather = "",
-                        costOfFood = 150,
-                        taxiCost = 150,
-                        apartmentCost = 150,
-                        qualityOfLife = "",
-                        costOfLiving = 150,
-                        distance = 150,
-                        cityRating = 10,
-                        pollutionIndex = 10,
-                        isFavourite = true
+                        Name = "Leipzig",
+                        ShortDescription = "Leipzig is an economic centre, is rated as the most livable city in Germany.",
+                        Img = "/img/Leipzig.jpg",
+                        Weather = "",
+                        CostOfFood = 150,
+                        TaxiCost = 150,
+                        ApartmentCost = 150,
+                        QualityOfLife = "",
+                        CostOfLiving = 150,
+                        Distance = 150,
+                        CityRating = 10,
+                        PollutionIndex = 10,
+                        IsFavourite = true
                     }
                     );
             content.SaveChanges();

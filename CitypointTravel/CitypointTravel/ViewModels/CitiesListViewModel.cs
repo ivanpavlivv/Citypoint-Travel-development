@@ -8,6 +8,6 @@ namespace CitypointTravel.ViewModels
 {
     public class CitiesListViewModel
     {
-        public IEnumerable<Cities> allCities { get; set; }
+        public IEnumerable<City> allCities { get; set; }
     }
 }

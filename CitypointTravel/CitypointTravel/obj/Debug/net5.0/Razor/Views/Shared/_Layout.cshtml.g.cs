@@ -13,14 +13,14 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\Views\_ViewImports.cshtml"
+#line 1 "D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\Views\Shared\_ViewImports.cshtml"
 using CitypointTravel.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"18027f1f601a79719d54122c25641ba1f005cd64", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd857a2f6c2e5edbe4a5a47d5aba4136f6b0df54", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd857a2f6c2e5edbe4a5a47d5aba4136f6b0df54", @"/Views/Shared/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -49,7 +49,7 @@ using CitypointTravel.ViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18027f1f601a79719d54122c25641ba1f005cd643120", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18027f1f601a79719d54122c25641ba1f005cd643134", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
 #nullable restore
 #line 6 "D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\Views\Shared\_Layout.cshtml"
@@ -71,7 +71,7 @@ using CitypointTravel.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18027f1f601a79719d54122c25641ba1f005cd644416", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18027f1f601a79719d54122c25641ba1f005cd644430", async() => {
                 WriteLiteral("\r\n    <div>\r\n        ");
 #nullable restore
 #line 10 "D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\Views\Shared\_Layout.cshtml"
