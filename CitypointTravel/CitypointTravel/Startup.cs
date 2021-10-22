@@ -32,6 +32,7 @@ namespace CitypointTravel
             services.AddDbContext<AppDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<ICity, CitiesRepository>();
+            services.AddTransient<ICityInfo, CityInfoRepository>();
             services.AddMvc();
             services.AddRazorPages();
         }

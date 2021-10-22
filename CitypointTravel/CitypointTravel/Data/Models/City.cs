@@ -11,16 +11,9 @@ namespace CitypointTravel.Data.Models
         public string Name { get; set; }
         public string Img { get; set; }
         public string ShortDescription { get; set; }
-        public string Weather { get; set; }
-        public double CostOfFood { get; set; }
-        public double TaxiCost { get; set; }
-        public double ApartmentCost { get; set; }
-        public string QualityOfLife { get; set; }
-        public double CostOfLiving { get; set; }
-        public double Distance { get; set; }
-        public double CityRating { get; set; }
-        public double PollutionIndex { get; set; }
-
         public bool IsFavourite { get; set; }
+
+        public virtual CityInfo CityInfo { get; set; }
+
     }
 }

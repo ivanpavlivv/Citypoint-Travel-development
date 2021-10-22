@@ -17,9 +17,9 @@ namespace CitypointTravel.Data.Repository
             this._context = context;
         }
 
-        public IEnumerable<City> cityList => _context.Cities;
+        public IEnumerable<City> CityList => _context.Cities;
 
-        public IEnumerable<City> getFavCity => _context.Cities.Where(c => c.IsFavourite);
+        public IEnumerable<City> GetFavCity => _context.Cities.Where(c => c.IsFavourite);
 
         public City getObjectCity(int cityId) => _context.Cities.FirstOrDefault(c => c.Id == cityId);
     }

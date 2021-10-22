@@ -15,5 +15,7 @@ namespace CitypointTravel.Data
         }
 
         public DbSet<City> Cities { get; set; }
+
+        public DbSet<CityInfo> CitiesInfo { get; set; }
     }
 }
