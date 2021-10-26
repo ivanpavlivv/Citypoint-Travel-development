@@ -29,7 +29,7 @@ namespace CitypointTravel.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Weather = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CostOfFood = table.Column<double>(type: "float", nullable: false),
+                    CostOfFood = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TaxiCost = table.Column<double>(type: "float", nullable: false),
                     ApartmentCost = table.Column<double>(type: "float", nullable: false),
                     QualityOfLife = table.Column<string>(type: "nvarchar(max)", nullable: true),

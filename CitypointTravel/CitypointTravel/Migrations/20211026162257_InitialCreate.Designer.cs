@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CitypointTravel.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20211022165306_InitialCreate")]
+    [Migration("20211026162257_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,8 +60,8 @@ namespace CitypointTravel.Migrations
                     b.Property<double>("CityRating")
                         .HasColumnType("float");
 
-                    b.Property<double>("CostOfFood")
-                        .HasColumnType("float");
+                    b.Property<string>("CostOfFood")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("CostOfLiving")
                         .HasColumnType("float");

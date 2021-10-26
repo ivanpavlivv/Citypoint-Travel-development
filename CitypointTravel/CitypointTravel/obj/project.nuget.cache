@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KrHlTcL/DXZPkAlol4h213lXmzHlom5ocjQ27ixdUWl5+xDT0eBzKsPm3JcG5rize3seGFWQA+p003JIli+kpw==",
+  "dgSpecHash": "6AvMazSnwKLAL8wzAsCQXlgwiLOEGCyKtS8ozgxqw2n+6vl9XgpuOP5Dl9pUmi6LSfQ0Yc/Pq5fbjg0+mgS/vA==",
   "success": true,
   "projectFilePath": "D:\\IDDQD\\Visual Studio Projects\\repos\\CitypointTravel\\CitypointTravel\\CitypointTravel.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\stepa\\.nuget\\packages\\htmlagilitypack\\1.11.37\\htmlagilitypack.1.11.37.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",

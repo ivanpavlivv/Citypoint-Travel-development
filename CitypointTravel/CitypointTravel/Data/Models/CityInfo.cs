@@ -10,7 +10,7 @@ namespace CitypointTravel.Data.Models
     {
         public int Id { get; set; }
         public string Weather { get; set; }
-        public double CostOfFood { get; set; }
+        public string CostOfFood { get; set; }
         public double TaxiCost { get; set; }
         public double ApartmentCost { get; set; }
         public string QualityOfLife { get; set; }

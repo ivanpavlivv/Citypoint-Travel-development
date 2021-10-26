@@ -58,8 +58,8 @@ namespace CitypointTravel.Migrations
                     b.Property<double>("CityRating")
                         .HasColumnType("float");
 
-                    b.Property<double>("CostOfFood")
-                        .HasColumnType("float");
+                    b.Property<string>("CostOfFood")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("CostOfLiving")
                         .HasColumnType("float");

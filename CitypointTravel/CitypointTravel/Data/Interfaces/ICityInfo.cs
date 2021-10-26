@@ -9,7 +9,8 @@ namespace CitypointTravel.Data.Interfaces
     public interface ICityInfo
     {
         IEnumerable<CityInfo> InfoList { get; }
-        CityInfo Info { get; }
+        CityInfo GetInfo(int Id);
         CityInfo GetObjectCityInfo(int infoId);
+        public string ParseInfo();
     }
 }

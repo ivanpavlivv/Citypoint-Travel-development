@@ -102,7 +102,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -116,7 +116,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -130,7 +130,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -144,7 +144,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -158,7 +158,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -172,7 +172,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -186,7 +186,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -200,7 +200,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -214,7 +214,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",
@@ -228,7 +228,7 @@ namespace CitypointTravel.Data
                     new CityInfo
                     {
                         Weather = "",
-                        CostOfFood = 150,
+                        CostOfFood = "150 UAH",
                         TaxiCost = 150,
                         ApartmentCost = 150,
                         QualityOfLife = "",

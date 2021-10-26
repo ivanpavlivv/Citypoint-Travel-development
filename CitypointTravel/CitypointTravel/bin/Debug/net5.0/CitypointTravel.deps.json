@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CitypointTravel/1.0.0": {
         "dependencies": {
+          "HtmlAgilityPack": "1.11.37",
           "Microsoft.AspNetCore.StaticFiles": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
@@ -324,6 +325,17 @@
         },
         "compile": {
           "CitypointTravel.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.37": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.37.0",
+            "fileVersion": "1.11.37.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3084,6 +3096,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HioktZJuMHVW7QTwVayHDoBL8dPL68vGRLFdQXYNuSJkVfhxn6xihcocUgbR+B1Lm/YesigUvWrdH0JY+PZ+0g==",
+      "path": "htmlagilitypack/1.11.37",
+      "hashPath": "htmlagilitypack.1.11.37.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

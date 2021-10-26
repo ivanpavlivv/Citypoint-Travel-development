@@ -33,6 +33,7 @@ namespace CitypointTravel
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddTransient<ICity, CitiesRepository>();
             services.AddTransient<ICityInfo, CityInfoRepository>();
+            services.AddTransient<CityInfoRepository>();
             services.AddMvc();
             services.AddRazorPages();
         }

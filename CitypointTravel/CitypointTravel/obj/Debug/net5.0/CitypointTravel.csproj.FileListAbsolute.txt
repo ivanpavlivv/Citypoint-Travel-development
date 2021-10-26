@@ -75,3 +75,5 @@ D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\obj\Debug\
 D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\obj\Debug\net5.0\Razor\Views\Shared\_ViewStart.cshtml.g.cs
 D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\obj\Debug\net5.0\CitypointTravel.csproj.AssemblyReference.cache
 D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\obj\Debug\net5.0\Razor\Views\Cities\BudapestInfo.cshtml.g.cs
+D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\bin\Debug\net5.0\HtmlAgilityPack.dll
+D:\IDDQD\Visual Studio Projects\repos\CitypointTravel\CitypointTravel\obj\Debug\net5.0\Razor\Views\Cities\SuccessfulUpdate.cshtml.g.cs
